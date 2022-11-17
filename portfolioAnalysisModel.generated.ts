@@ -15,7 +15,7 @@ export interface PortfolioAnalysisResult {
   BUILDING_address: string;
   BUILDING_area_km2: number;
   BUILDING_area_m2: number;
-  BUILDING_construction_decade: number;
+  BUILDING_construction_decade: string;
   BUILDING_electricity_mwh: number;
   BUILDING_footprint_sqm?: number;
   BUILDING_groundwater_area?: boolean;
