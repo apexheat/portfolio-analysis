@@ -33,7 +33,6 @@ export interface PortfolioAnalysisResult {
   DH_HEAT_RECOVERY_captured_energy_mwh: number;
   DH_HEAT_RECOVERY_dh_eur: number;
   DH_HEAT_RECOVERY_dh_mwh: number;
-  DH_HEAT_RECOVERY_heating_savings_eur: number;
   DH_HEAT_RECOVERY_hp_electricity_eur: number;
   DH_HEAT_RECOVERY_hp_electricity_mwh: number;
   DH_HEAT_RECOVERY_hp_total_mwh: number;
@@ -45,7 +44,6 @@ export interface PortfolioAnalysisResult {
   DH_HEAT_RECOVERY_opex: number;
   DH_HEAT_RECOVERY_pmt: number;
   DH_HEAT_RECOVERY_pp?: number;
-  DH_HEAT_RECOVERY_savings_co2: number;
   GS_borehole_count: number;
   GS_borehole_mwh: number;
   GS_borehole_sqm: number;
@@ -56,7 +54,6 @@ export interface PortfolioAnalysisResult {
   GS_drillcost: number;
   GS_elec_upgrade_capex: number;
   GS_electric_boiler_power: number;
-  GS_heating_savings_eur: number;
   GS_hp_power: number;
   GS_hp_electricity_eur: number;
   GS_hp_electricity_mwh: number;
@@ -64,7 +61,6 @@ export interface PortfolioAnalysisResult {
   GS_opex: number;
   GS_pmt: number;
   GS_pp?: number;
-  GS_savings_co2: number;
   GS_HEAT_RECOVERY_borehole_count: number;
   GS_HEAT_RECOVERY_borehole_mwh: number;
   GS_HEAT_RECOVERY_borehole_sqm: number;
@@ -74,12 +70,10 @@ export interface PortfolioAnalysisResult {
   GS_HEAT_RECOVERY_drill_method: DrillingMethod;
   GS_HEAT_RECOVERY_drillcost: number;
   GS_HEAT_RECOVERY_elec_upgrade_capex: number;
-  GS_HEAT_RECOVERY_heating_savings_eur: number;
   GS_HEAT_RECOVERY_hp_electricity_eur: number;
   GS_HEAT_RECOVERY_hp_electricity_mwh: number;
   GS_HEAT_RECOVERY_irr: number;
   GS_HEAT_RECOVERY_opex: number;
   GS_HEAT_RECOVERY_pmt: number;
   GS_HEAT_RECOVERY_pp?: number;
-  GS_HEAT_RECOVERY_savings_co2: number;
 }
