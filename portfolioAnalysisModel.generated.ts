@@ -26,7 +26,6 @@ export interface PortfolioAnalysisResult {
   BUILDING_number_of_floors?: number;
   BUILDING_type: string;
   BUILDING_underground_zoning?: boolean;
-  BUILDING_ventilation: string;
   BUILDING_ventilation_units: number;
   DH_co2: number;
   DH_total_energy_eur: number;
