@@ -56,8 +56,8 @@ export interface PortfolioAnalysisResult {
   GS_hp_power: number;
   GS_hp_electricity_eur: number;
   GS_hp_electricity_mwh: number;
-  GS_irr: number;
-  GS_opex: number;
+  GS_irr?: number;
+  GS_opex?: number;
   GS_pmt: number;
   GS_pp?: number;
   GS_HEAT_RECOVERY_borehole_count: number;
@@ -71,8 +71,8 @@ export interface PortfolioAnalysisResult {
   GS_HEAT_RECOVERY_elec_upgrade_capex: number;
   GS_HEAT_RECOVERY_hp_electricity_eur: number;
   GS_HEAT_RECOVERY_hp_electricity_mwh: number;
-  GS_HEAT_RECOVERY_irr: number;
-  GS_HEAT_RECOVERY_opex: number;
+  GS_HEAT_RECOVERY_irr?: number;
+  GS_HEAT_RECOVERY_opex?: number;
   GS_HEAT_RECOVERY_pmt: number;
   GS_HEAT_RECOVERY_pp?: number;
 }
