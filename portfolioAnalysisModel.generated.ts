@@ -29,7 +29,7 @@ export interface components {
          * DrillingMethod
          * @enum {string}
          */
-        DrillingMethod: "diagonal" | "normal" | "not_possible" | "unknown";
+        DrillingMethod: "possible" | "not_possible" | "unknown";
         /** PortfolioAnalysisError */
         PortfolioAnalysisError: {
             /** Building Id */
@@ -105,8 +105,6 @@ export interface components {
             GS_borehole_count: number;
             /** Gs Borehole Mwh */
             GS_borehole_mwh: number;
-            /** Gs Borehole Sqm */
-            GS_borehole_sqm: number;
             /** Gs Capex */
             GS_capex: number;
             /** Gs Co2 */
@@ -138,8 +136,6 @@ export interface components {
             GS_HEAT_RECOVERY_borehole_count: number;
             /** Gs Heat Recovery Borehole Mwh */
             GS_HEAT_RECOVERY_borehole_mwh: number;
-            /** Gs Heat Recovery Borehole Sqm */
-            GS_HEAT_RECOVERY_borehole_sqm: number;
             /** Gs Heat Recovery Capex */
             GS_HEAT_RECOVERY_capex: number;
             /** Gs Heat Recovery Co2 */
